@@ -7,5 +7,5 @@
 <h3> 🔧 After that go to the main system file ("main.py") and start the bot. If you find any console errors related to code syntax, please do not hesitate to report this error by sending an email to the system developer (email: victorlucasferr@outlook.com). </h3>
 
 <pre>
-    Copyright &copy; 2022 SynthaxDev - All rights reserved.
+Copyright &copy; 2022 SynthaxDev - All rights reserved.
 </pre>
