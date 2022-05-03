@@ -1,6 +1,7 @@
 import discord, os, json
 from discord.ext import commands
 
+# START
 
 with open("./database/configs.json", "r") as p:
     bot_prefix = json.load(p)
@@ -20,7 +21,7 @@ class MyBotUsingCogsSystem(commands.Bot):
 
         activity = discord.Game(name = "github/synthax-c")
         await client.change_presence(
-        status = discord.Status.idle, activity = activity)
+        status = discord.Status.online, activity = activity)
         
         print(f"{client.user.name} now is online.")
 
@@ -36,3 +37,5 @@ with open("./database/configs.json", "r") as token:
     TOKEN = bot_token["token"]
 
 client.run(TOKEN)
+
+# THE END
